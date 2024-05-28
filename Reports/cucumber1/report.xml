@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="74.38" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="to validate login functionality of facebook application" name="To validate login with valid username and valid password" time="46.448">
+<system-out><![CDATA[
+Given To launch the chrome browser and maximize the window..................passed
+When To launch the url of the facebook application..........................passed
+And To pass  valid username in email field..................................passed
+And To pass  valid password in password field...............................passed
+And To click  login button..................................................passed
+And To check whether navigate to the homepage or not........................passed
+Then To close the browser...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="to validate login functionality of facebook application" name="To validate positive and negative combination of login functionality - Example #1.1" time="13.607">
+<system-out><![CDATA[
+Given To launch the chrome browser and maximize the window..................passed
+When User has to launch the url of facebook application.....................passed
+And User has to pass username "abc11@gamil.com"in email field...............passed
+And User has to pass password "abc11"in password field......................passed
+And User has to click login button..........................................passed
+And User has to check whether navigate to the homepage or not...............passed
+Then User has to close the browser..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="to validate login functionality of facebook application" name="To validate positive and negative combination of login functionality - Example #1.2" time="13.603">
+<system-out><![CDATA[
+Given To launch the chrome browser and maximize the window..................passed
+When User has to launch the url of facebook application.....................passed
+And User has to pass username "banu12@gmail.com"in email field..............passed
+And User has to pass password "banu"in password field.......................passed
+And User has to click login button..........................................passed
+And User has to check whether navigate to the homepage or not...............passed
+Then User has to close the browser..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
